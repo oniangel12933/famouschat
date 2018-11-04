@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FCDA42F218F1FA700EBCCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDA42E218F1FA700EBCCE1 /* AppDelegate.swift */; };
+		8FCDA431218F1FA700EBCCE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDA430218F1FA700EBCCE1 /* ViewController.swift */; };
+		8FCDA434218F1FA700EBCCE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDA432218F1FA700EBCCE1 /* Main.storyboard */; };
+		8FCDA436218F1FA700EBCCE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDA435218F1FA700EBCCE1 /* Assets.xcassets */; };
+		8FCDA439218F1FA800EBCCE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDA437218F1FA800EBCCE1 /* LaunchScreen.storyboard */; };
+		8FCDA444218F1FA800EBCCE1 /* famouschatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDA443218F1FA800EBCCE1 /* famouschatTests.swift */; };
+		8FCDA44F218F1FA800EBCCE1 /* famouschatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDA44E218F1FA800EBCCE1 /* famouschatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FCDA440218F1FA800EBCCE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCDA423218F1FA700EBCCE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCDA42A218F1FA700EBCCE1;
+			remoteInfo = famouschat;
+		};
+		8FCDA44B218F1FA800EBCCE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCDA423218F1FA700EBCCE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCDA42A218F1FA700EBCCE1;
+			remoteInfo = famouschat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FCDA42B218F1FA700EBCCE1 /* famouschat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = famouschat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCDA42E218F1FA700EBCCE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FCDA430218F1FA700EBCCE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FCDA433218F1FA700EBCCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FCDA435218F1FA700EBCCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FCDA438218F1FA800EBCCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FCDA43A218F1FA800EBCCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCDA43F218F1FA800EBCCE1 /* famouschatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = famouschatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCDA443218F1FA800EBCCE1 /* famouschatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = famouschatTests.swift; sourceTree = "<group>"; };
+		8FCDA445218F1FA800EBCCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCDA44A218F1FA800EBCCE1 /* famouschatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = famouschatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCDA44E218F1FA800EBCCE1 /* famouschatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = famouschatUITests.swift; sourceTree = "<group>"; };
+		8FCDA450218F1FA800EBCCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FCDA428218F1FA700EBCCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCDA43C218F1FA800EBCCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCDA447218F1FA800EBCCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FCDA422218F1FA700EBCCE1 = {
+			isa = PBXGroup;
+			children = (
+				8FCDA42D218F1FA700EBCCE1 /* famouschat */,
+				8FCDA442218F1FA800EBCCE1 /* famouschatTests */,
+				8FCDA44D218F1FA800EBCCE1 /* famouschatUITests */,
+				8FCDA42C218F1FA700EBCCE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCDA42C218F1FA700EBCCE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDA42B218F1FA700EBCCE1 /* famouschat.app */,
+				8FCDA43F218F1FA800EBCCE1 /* famouschatTests.xctest */,
+				8FCDA44A218F1FA800EBCCE1 /* famouschatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FCDA42D218F1FA700EBCCE1 /* famouschat */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDA42E218F1FA700EBCCE1 /* AppDelegate.swift */,
+				8FCDA430218F1FA700EBCCE1 /* ViewController.swift */,
+				8FCDA432218F1FA700EBCCE1 /* Main.storyboard */,
+				8FCDA435218F1FA700EBCCE1 /* Assets.xcassets */,
+				8FCDA437218F1FA800EBCCE1 /* LaunchScreen.storyboard */,
+				8FCDA43A218F1FA800EBCCE1 /* Info.plist */,
+			);
+			path = famouschat;
+			sourceTree = "<group>";
+		};
+		8FCDA442218F1FA800EBCCE1 /* famouschatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDA443218F1FA800EBCCE1 /* famouschatTests.swift */,
+				8FCDA445218F1FA800EBCCE1 /* Info.plist */,
+			);
+			path = famouschatTests;
+			sourceTree = "<group>";
+		};
+		8FCDA44D218F1FA800EBCCE1 /* famouschatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDA44E218F1FA800EBCCE1 /* famouschatUITests.swift */,
+				8FCDA450218F1FA800EBCCE1 /* Info.plist */,
+			);
+			path = famouschatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FCDA42A218F1FA700EBCCE1 /* famouschat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCDA453218F1FA800EBCCE1 /* Build configuration list for PBXNativeTarget "famouschat" */;
+			buildPhases = (
+				8FCDA427218F1FA700EBCCE1 /* Sources */,
+				8FCDA428218F1FA700EBCCE1 /* Frameworks */,
+				8FCDA429218F1FA700EBCCE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = famouschat;
+			productName = famouschat;
+			productReference = 8FCDA42B218F1FA700EBCCE1 /* famouschat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FCDA43E218F1FA800EBCCE1 /* famouschatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCDA456218F1FA800EBCCE1 /* Build configuration list for PBXNativeTarget "famouschatTests" */;
+			buildPhases = (
+				8FCDA43B218F1FA800EBCCE1 /* Sources */,
+				8FCDA43C218F1FA800EBCCE1 /* Frameworks */,
+				8FCDA43D218F1FA800EBCCE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCDA441218F1FA800EBCCE1 /* PBXTargetDependency */,
+			);
+			name = famouschatTests;
+			productName = famouschatTests;
+			productReference = 8FCDA43F218F1FA800EBCCE1 /* famouschatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FCDA449218F1FA800EBCCE1 /* famouschatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCDA459218F1FA800EBCCE1 /* Build configuration list for PBXNativeTarget "famouschatUITests" */;
+			buildPhases = (
+				8FCDA446218F1FA800EBCCE1 /* Sources */,
+				8FCDA447218F1FA800EBCCE1 /* Frameworks */,
+				8FCDA448218F1FA800EBCCE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCDA44C218F1FA800EBCCE1 /* PBXTargetDependency */,
+			);
+			name = famouschatUITests;
+			productName = famouschatUITests;
+			productReference = 8FCDA44A218F1FA800EBCCE1 /* famouschatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FCDA423218F1FA700EBCCE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Oni Angel";
+				TargetAttributes = {
+					8FCDA42A218F1FA700EBCCE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8FCDA43E218F1FA800EBCCE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FCDA42A218F1FA700EBCCE1;
+					};
+					8FCDA449218F1FA800EBCCE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FCDA42A218F1FA700EBCCE1;
+					};
+				};
+			};
+			buildConfigurationList = 8FCDA426218F1FA700EBCCE1 /* Build configuration list for PBXProject "famouschat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FCDA422218F1FA700EBCCE1;
+			productRefGroup = 8FCDA42C218F1FA700EBCCE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCDA42A218F1FA700EBCCE1 /* famouschat */,
+				8FCDA43E218F1FA800EBCCE1 /* famouschatTests */,
+				8FCDA449218F1FA800EBCCE1 /* famouschatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FCDA429218F1FA700EBCCE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCDA439218F1FA800EBCCE1 /* LaunchScreen.storyboard in Resources */,
+				8FCDA436218F1FA700EBCCE1 /* Assets.xcassets in Resources */,
+				8FCDA434218F1FA700EBCCE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCDA43D218F1FA800EBCCE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCDA448218F1FA800EBCCE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FCDA427218F1FA700EBCCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCDA431218F1FA700EBCCE1 /* ViewController.swift in Sources */,
+				8FCDA42F218F1FA700EBCCE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCDA43B218F1FA800EBCCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCDA444218F1FA800EBCCE1 /* famouschatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCDA446218F1FA800EBCCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCDA44F218F1FA800EBCCE1 /* famouschatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FCDA441218F1FA800EBCCE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCDA42A218F1FA700EBCCE1 /* famouschat */;
+			targetProxy = 8FCDA440218F1FA800EBCCE1 /* PBXContainerItemProxy */;
+		};
+		8FCDA44C218F1FA800EBCCE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCDA42A218F1FA700EBCCE1 /* famouschat */;
+			targetProxy = 8FCDA44B218F1FA800EBCCE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FCDA432218F1FA700EBCCE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCDA433218F1FA700EBCCE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FCDA437218F1FA800EBCCE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCDA438218F1FA800EBCCE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FCDA451218F1FA800EBCCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FCDA452218F1FA800EBCCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCDA454218F1FA800EBCCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = famouschat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oni.famouschat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FCDA455218F1FA800EBCCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = famouschat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oni.famouschat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FCDA457218F1FA800EBCCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = famouschatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oni.famouschatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/famouschat.app/famouschat";
+			};
+			name = Debug;
+		};
+		8FCDA458218F1FA800EBCCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = famouschatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oni.famouschatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/famouschat.app/famouschat";
+			};
+			name = Release;
+		};
+		8FCDA45A218F1FA800EBCCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = famouschatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oni.famouschatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = famouschat;
+			};
+			name = Debug;
+		};
+		8FCDA45B218F1FA800EBCCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = famouschatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oni.famouschatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = famouschat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FCDA426218F1FA700EBCCE1 /* Build configuration list for PBXProject "famouschat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCDA451218F1FA800EBCCE1 /* Debug */,
+				8FCDA452218F1FA800EBCCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCDA453218F1FA800EBCCE1 /* Build configuration list for PBXNativeTarget "famouschat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCDA454218F1FA800EBCCE1 /* Debug */,
+				8FCDA455218F1FA800EBCCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCDA456218F1FA800EBCCE1 /* Build configuration list for PBXNativeTarget "famouschatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCDA457218F1FA800EBCCE1 /* Debug */,
+				8FCDA458218F1FA800EBCCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCDA459218F1FA800EBCCE1 /* Build configuration list for PBXNativeTarget "famouschatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCDA45A218F1FA800EBCCE1 /* Debug */,
+				8FCDA45B218F1FA800EBCCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FCDA423218F1FA700EBCCE1 /* Project object */;
+}
